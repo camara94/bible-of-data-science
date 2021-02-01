@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Navbar, NabarBrand, NavbarBrand } from 'reactstrap';
+import Home from './components/HomeComponent';
 
 
 
@@ -16,6 +17,7 @@ class App extends Component {
               </div>
             </div>
         </Navbar>
+        <Home />
       </div>
     );
   }
