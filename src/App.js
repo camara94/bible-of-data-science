@@ -3,10 +3,18 @@ import logo from './logo.svg';
 import './App.css';
 import { Navbar, NabarBrand, NavbarBrand } from 'reactstrap';
 import Home from './components/HomeComponent';
-
+import { DATASCIENCE } from './data/datascience';
 
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      datascience: DATASCIENCE
+    };
+  }
+
   render() {
     return (
       <div className="App">
@@ -17,7 +25,7 @@ class App extends Component {
               </div>
             </div>
         </Navbar>
-        <Home />
+        <Home datascience={this.state.datascience} />
       </div>
     );
   }
