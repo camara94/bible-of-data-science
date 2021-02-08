@@ -16,7 +16,7 @@ export const DATASCIENCE = {
         "Communicate: Data reporting, data visualization, business intelligence, decision making",
         "Analyze: Exploratory/confirmatory, predictive analysis, regression, text mining, qualitative analysis" 
     ],
-    Datascienceuses: [
+    datascienceuses: [
         "Anomaly detection (fraud, disease, crime, etc.)",
         "Automation and decision-making (background checks, credit worthiness, etc.)",
         "Classifications (in an email server, this could mean classifying emails as “important” or “junk”)",
