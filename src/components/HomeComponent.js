@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Card, CardBody, CardSubtitle, CardImg, CardText, CardTitle, ListGroup, ListGroupItem } from "reactstrap";
  
-function  WhatIsDataScience(props) {
+function  WhatIsDataScience(props) { 
     return(
         <div className="row mt-5">
             <div className="col-12">
